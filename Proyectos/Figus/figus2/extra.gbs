@@ -164,12 +164,16 @@ function faltaFiguEnÁlbum() {
 
 function álbumCompleto() {
     Mover(Sur)
-    completo := not hayBolitas(Azul)
+    completo := aux_tengoEstaFigu()
     while(completo && puedeMover(Este)) {
         Mover(Este)
-        completo := completo && not hayBolitas(Azul)
+        completo := completo && aux_tengoEstaFigu()
     }
     return (completo)
+}
+
+function aux_tengoEstaFigu() {
+    return (nroBolitas(Azul) == 2)
 }
 
 function aux_esFiguRepetida() {
@@ -188,5 +192,5 @@ function aux_esFiguRepetida() {
     repeat(n-1) {
         Mover(Este)
     }
-    return (nroBolitas(Azul) == 2)
+    return (aux_tengoEstaFigu())
 }
