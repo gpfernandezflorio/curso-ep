@@ -1,0 +1,9 @@
+[
+  { "name": "Curso EP"         , "repo": "gpfernandezflorio/curso-ep",
+    "homeLink": "http://www.gobstones.org/bibliografia/Libros/BasesConceptualesProg.pdf",
+    "exercises": [
+      { "id": "1.1",        "name": "Completando el álbum",
+        "path": "Proyectos/Figus/figus"
+      }
+    ] }
+  ]

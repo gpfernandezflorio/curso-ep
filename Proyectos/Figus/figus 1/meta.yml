@@ -1,0 +1,42 @@
+library:
+  visible: false
+source:
+  visible: true
+  percentage: 0.5499951625386997
+board:
+  visible_edition: false
+  collapse_toolbox: false
+  user_permissions:
+    can_change_initial_board: false
+    can_change_initial_board_source: false
+    can_edit_board: false
+    can_view_size_section: false
+    can_view_attire_section: false
+    can_toggle_visibility: false
+  active: 7
+  initial_board_source: random
+execution_speed:
+  user_permissions:
+    can_change_speed: true
+  active: high
+attire:
+  user_permissions:
+    can_toggle_visibility: false
+  visible: true
+  active: figus
+initialDescription: true
+link: ''
+blocks:
+  visible:
+    - ProcedimientosPrimitivos
+    - RepeticionSimple
+    - RepeticionCondicional
+    - Numero
+    - FuncionesPrimitivas
+    - OperadorDeNegacion
+  disabled: []
+activity:
+  creation_mode: advanced
+  construction_mode: blocks
+  execution_type: sequential
+name: figus 1
