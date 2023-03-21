@@ -1,8 +1,11 @@
 [
   { "name": "Programando con bloques"         , "repo": "gpfernandezflorio/curso-ep",
     "exercises": [
-      { "id": "1.1",        "name": "Completando el álbum",
+      { "id": "1.1",        "name": "Completando el álbum (1)",
         "path": "Proyectos/Figus/figus"
+      },
+      { "id": "1.2",        "name": "Completando el álbum (2)",
+        "path": "Proyectos/Figus/figus2"
       }
     ] }
   ]

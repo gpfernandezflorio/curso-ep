@@ -22,6 +22,13 @@ procedure CrearContadorDeFigus() {
     }
     IrAlBorde(Este)
     Poner(Azul)
+    Mover(Oeste)
+    Poner(Negro)
+    Poner(Negro)
+    Poner(Negro)
+    Mover(Oeste)
+    Poner(Negro)
+    Poner(Negro)
     IrAlBorde(Oeste)
 }
 
