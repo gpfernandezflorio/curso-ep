@@ -31,11 +31,6 @@ blocks:
       <category name="COMANDOS">
       </category>
         <category name="Procedimientos primitivos">
-          <block type="CrearAlbumDeFigus"></block>
-          <block type="CrearContadorDeFigus"></block>
-          <block type="ComprarFigu"></block>
-          <block type="PegarFigu"></block>
-          <block type="AumentarContador"></block>
         </category>
         <category name="Mis procedimientos" custom="PROCEDURE_CALLS">
         </category>
@@ -49,7 +44,6 @@ blocks:
           <block type="math_number"></block>
         </category>
         <category name="Funciones primitivas">
-          <block type="contadorCreado"></block>
         </category>
         <category name="Mis funciones" custom="FUNCTION_CALLS">
         </category>
@@ -66,8 +60,8 @@ blocks:
                             , "RepeticionSimple", "RepeticionCondicionalReal"
             , "EXPRESIONES" , "Numero"
                             , "FuncionesPrimitivas", "Mis funciones"
-            , "DEFINICIONES", "procedures_defnoreturn"
-                            , "procedures_defreturnsimplewithparams"
+            , "DEFINICIONES", "procedures_defnoreturnnoparams"
+                            , "procedures_defreturnsimple"
             ]
   disabled: []
 activity:
