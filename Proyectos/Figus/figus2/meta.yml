@@ -36,7 +36,7 @@ blocks:
         </category>
         <category name="Repeticiones">
           <block type="RepeticionSimple"></block>
-          <block type="RepeticionCondicionalReal"></block>
+          <block type="RepeticionCondicional"></block>
         </category>
       <category name="EXPRESIONES">
       </category>
@@ -57,7 +57,7 @@ blocks:
         </category>
   visible:  [ "COMANDOS"
                             , "Procedimientos primitivos", "Mis procedimientos"
-                            , "RepeticionSimple", "RepeticionCondicionalReal"
+                            , "RepeticionSimple", "RepeticionCondicional"
             , "EXPRESIONES" , "Numero"
                             , "FuncionesPrimitivas", "Mis funciones"
             , "DEFINICIONES", "procedures_defnoreturnnoparams"
@@ -68,4 +68,4 @@ activity:
   creation_mode: advanced
   construction_mode: blocks
   execution_type: sequential
-name: figus 1
+name: figus 2
