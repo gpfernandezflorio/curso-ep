@@ -111,11 +111,8 @@ procedure PegarFigu() {
         repeat(n-1) {
             Mover(Este)
         }
-        if (hayBolitas(Azul)) {
-            Sacar(Azul)
-            repeat(n-1) {
-                Poner(Verde)
-            }
+        if (nroBolitas(Azul) == 1) {
+            Poner(Azul)
         }
         IrAlBorde(Norte)
         IrAlBorde(Oeste)
@@ -191,5 +188,5 @@ function aux_esFiguRepetida() {
     repeat(n-1) {
         Mover(Este)
     }
-    return (not hayBolitas(Azul) && nroBolitas(Verde) == n)
+    return (nroBolitas(Azul) == 2)
 }
