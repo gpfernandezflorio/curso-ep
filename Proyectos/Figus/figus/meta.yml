@@ -27,14 +27,48 @@ attire:
 initialDescription: true
 link: ''
 blocks:
-  visible:
-    - ProcedimientosPrimitivos
-    - RepeticionSimple
-    - RepeticionCondicional
-    - RepeticionCondicionalReal
-    - Numero
-    - FuncionesPrimitivas
-    - OperadorDeNegacion
+  defaultToolbox: |
+      <category name="COMANDOS">
+      </category>
+        <category name="Procedimientos primitivos">
+          <block type="CrearAlbumDeFigus"></block>
+          <block type="CrearContadorDeFigus"></block>
+          <block type="ComprarFigu"></block>
+          <block type="PegarFigu"></block>
+          <block type="AumentarContador"></block>
+        </category>
+        <category name="Mis procedimientos" custom="PROCEDURE_CALLS">
+        </category>
+        <category name="Repeticiones">
+          <block type="RepeticionSimple"></block>
+          <block type="RepeticionCondicionalReal"></block>
+        </category>
+      <category name="EXPRESIONES">
+      </category>
+        <category name="Valores literales">
+          <block type="math_number"></block>
+        </category>
+        <category name="Funciones primitivas">
+          <block type="contadorCreado"></block>
+        </category>
+        <category name="Mis funciones" custom="FUNCTION_CALLS">
+        </category>
+      <category name="DEFINICIONES">
+      </category>
+        <category name="Procedimientos">
+          <block type="procedures_defnoreturnnoparams"></block>
+        </category>
+        <category name="Funciones">
+          <block type="procedures_defreturnsimple"></block>
+        </category>
+  visible:  [ "COMANDOS"
+                            , "Procedimientos primitivos", "Mis procedimientos"
+                            , "RepeticionSimple", "RepeticionCondicionalReal"
+            , "EXPRESIONES" , "Numero"
+                            , "FuncionesPrimitivas", "Mis funciones"
+            , "DEFINICIONES", "procedures_defnoreturn"
+                            , "procedures_defreturnsimplewithparams"
+            ]
   disabled: []
 activity:
   creation_mode: advanced

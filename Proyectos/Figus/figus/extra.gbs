@@ -159,6 +159,7 @@ function aux_hayFigu() {
     return (hayBolitas(Verde))
 }
 
+/*@ATTRIBUTE@block_name@falta figu en álbum@*/
 function faltaFiguEnÁlbum() {
     return (not álbumCompleto())
 }
